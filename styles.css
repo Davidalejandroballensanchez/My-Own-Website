@@ -11,15 +11,43 @@ body {
 
 .nav-container {
     background-color: red;
-    width: 90%;
-    margin: auto;
+    width: 100%;
 }
 
 ul {
     list-style: none;
 }
 
-a {
+a .logo {
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.nav-main a {
     color: rgb(90, 90, 90);
     text-decoration: none;
+}
+
+.nav-main {
+    background-color: blue;
+    margin: auto;
+    width: 90%;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 10px;
+}
+
+.nav-menu li a:hover {
+    color: #335eea;
+    transition-duration: 0.5s;
 }
